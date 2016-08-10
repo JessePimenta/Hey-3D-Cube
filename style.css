@@ -63,7 +63,9 @@ a:visited {
 
   }
 
-
+.terrLink {
+  float: right;
+}
 .container  {
    position: relative;
    margin: 100px auto 100px auto;
