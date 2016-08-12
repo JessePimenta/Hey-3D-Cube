@@ -15,6 +15,21 @@
   src: url("lineto-circular-pro-medium.woff") format('woff');
 }
 
+:root:before {
+  content: url(13936601_10207267927358973_46043127_n.gif)
+           url(13936682_10207267976520202_1131311615_n.gif)
+           url(13941087_10207267926758958_730920917_n.gif)
+           url(13988696_10207267979640280_1088157014_n.gif)
+           url(13988890_10207267971400074_1071357016_n.gif)
+           url(13989617_10207267945479426_1845954785_n.gif)
+
+  /* partial fallback */
+  background-image: url(/@/Storage/_files/68/file.jpg);
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+}
+
 
 body	{
 	margin: 0 auto;
