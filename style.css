@@ -368,3 +368,102 @@ a:visited {
                                     -ms-transform: translate3d(0,0,-100px) rotate3d(1,0,0,180deg);
                                     transform: translate3d(0,0,-100px) rotate3d(1,0,0,180deg);
                                 }
+
+
+                                @-webkit-keyframes wave {
+                                  from {
+                                    -webkit-transform: translateY(0);
+                                            transform: translateY(0);
+
+                                  }
+                                  to {
+                                    -webkit-transform: translateY(-5px);
+                                            transform: translateY(-5px);
+                                  }
+                                }
+                                .wavetext {
+                                  text-align: center;
+
+                                }
+
+                                li.wavetext.menu- {
+
+
+                                    text-transform: uppercase;
+                                    letter-spacing: 4px;
+
+                                }
+
+                                .wavetext span {
+                                  display: inline-block;
+                                  -webkit-animation-duration: 1s;
+                                  animation-duration: 1s;
+                                  -webkit-animation-name: wave;
+                                          animation-name: wave;
+                                  -webkit-animation-iteration-count: infinite;
+                                          animation-iteration-count: infinite;
+                                  -webkit-animation-direction: alternate;
+                                          animation-direction: alternate;
+
+                                }
+
+                                .wavetext :nth-child(10n + 0) {
+                                  -webkit-animation-delay: -2s;
+                                          animation-delay: -2s;
+                                }
+
+                                .wavetext :nth-child(10n + 1) {
+                                  -webkit-animation-delay: -1.8s;
+                                          animation-delay: -1.8s;
+                                }
+
+                                .wavetext :nth-child(10n + 2) {
+                                  -webkit-animation-delay: -1.6s;
+                                          animation-delay: -1.6s;
+                                }
+
+                                .wavetext :nth-child(10n + 3) {
+                                  -webkit-animation-delay: -1.4s;
+                                          animation-delay: -1.4s;
+                                }
+
+                                .wavetext :nth-child(10n + 4) {
+                                  -webkit-animation-delay: -1.2s;
+                                          animation-delay: -1.2s;
+                                }
+
+                                .wavetext :nth-child(10n + 5) {
+                                  -webkit-animation-delay: -1s;
+                                          animation-delay: -1s;
+                                }
+
+                                .wavetext :nth-child(10n + 6) {
+                                  -webkit-animation-delay: -0.8s;
+                                          animation-delay: -0.8s;
+                                }
+
+                                .wavetext :nth-child(10n + 7) {
+                                  -webkit-animation-delay: -0.4s;
+                                          animation-delay: -0.4s;
+
+                                 -webkit-animation-delay: -0.4s;
+
+                                         animation-delay: -0.4s;}
+
+                                .wavetext :nth-child(10n + 8) {
+                                  -webkit-animation-delay: -0.4s;
+                                          animation-delay: -0.4s;
+                                   -webkit-animation-delay: -0.4s;
+                                           animation-delay: -0.4s;
+                                }
+
+                                .wavetext :nth-child(10n + 9) {
+                                  animation-delay: -0.2s;
+                                    -webkit-animation-delay: -0.2s;
+                                }
+
+                                li.wavetext.menu- {
+
+                                    text-transform: uppercase;
+                                    letter-spacing: 4px;
+                                }
